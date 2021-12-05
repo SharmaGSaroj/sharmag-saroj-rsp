@@ -1,6 +1,6 @@
 from  random import randint
-import winlose
-import gameplayer
+from gameconditions import winlose
+from gameconditions import gameplayer
 
 while gameplayer.player is False:
 
